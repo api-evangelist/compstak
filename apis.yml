@@ -1,8 +1,16 @@
 aid: compstak
 name: Compstak
-description: Compstak is a company surfaced as a portfolio company of 500-global, canaan-partners and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  CompStak is a commercial real estate (CRE) data platform, founded in 2012,
+  that crowdsources and verifies lease comps, sale comps, loan data, and
+  property data from a network of tens of thousands of brokers and appraisers
+  across US markets. Its products include CompStak One (an all-in-one CRE data
+  platform), CompStak Exchange, CompStak AI, and a contact-sales Data API
+  offering Market Insights, Property Insights, Space Insights, and Property
+  Standardization. CompStak was surfaced as a portfolio company of 500 Global
+  and Canaan Partners and added to the API Evangelist network. Its developer
+  surface is enterprise/contact-sales only — there is no public self-serve
+  developer portal, OpenAPI specification, SDK, or API reference.
 url: https://raw.githubusercontent.com/api-evangelist/compstak/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,11 +19,31 @@ x-backed-by:
 - canaan-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://compstak.com/wp-content/uploads/2024/11/big-homepage-image-6-margins-1024x665.png
 tags:
 - Company
+- Commercial Real Estate
+- Real Estate Data
+- CRE
+- Lease Comps
+- Sale Comps
+- Property Data
+- Market Intelligence
+- Data
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +53,26 @@ maintainers:
 common:
 - type: Website
   url: https://compstak.com
+- type: API
+  url: https://compstak.com/data-api
+- type: Blog
+  url: https://compstak.com/blog
+- type: GitHubOrganization
+  url: https://github.com/compstak
+- type: SignUp
+  url: https://compstak.com/home/get-started
+- type: Login
+  url: https://enterprise.compstak.com/login
+- type: TermsOfService
+  url: https://compstak.com/legal#TermsOfUse
+- type: PrivacyPolicy
+  url: https://compstak.com/legal#PrivacyPolicy
+- type: DomainSecurity
+  url: security/compstak-domain-security.yml
+- type: LLMsTxt
+  url: llms/compstak-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
